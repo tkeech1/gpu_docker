@@ -1,0 +1,27 @@
+{
+    "name": "python",
+    "context": "..",
+    "dockerFile": "Dockerfile",
+    "runArgs": [
+        "--gpus",
+        "all",
+        "--shm-size",
+        "2G"
+    ],
+    "forwardPorts": [
+        8888
+    ],
+    "appPort": [],
+    "settings": {
+        "terminal.integrated.profiles.linux": {
+            "bash": {
+                "path": "/bin/bash"
+            }
+        },
+        "terminal.integrated.defaultProfile.linux": "bash"
+    },
+    "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+    ]
+}
