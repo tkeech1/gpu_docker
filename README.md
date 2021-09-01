@@ -1,5 +1,5 @@
 ## gpu_docker
-This repo provides an example for configuring a GPU inside Docker. See the article [Using GPUs in VS Code Dev Containers](http://localhost:8501/?content=2) for additional details. 
+This repo provides an example for configuring a GPU inside Docker. See the article [Using GPUs in VS Code Dev Containers](https://toddkeech.com/?content=2) for additional details. 
 
 ### Usage
 #### VS Code Dev Container
